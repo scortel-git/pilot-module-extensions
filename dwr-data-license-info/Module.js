@@ -3,7 +3,7 @@
  * This is the simplest possible application to demonstrate the basics
  */
 
-Ext.define('Store.hello_world.Module', {
+Ext.define('Store.dwr_data.license.Module', {
     extend: 'Ext.Component',
 
     /**
@@ -130,7 +130,7 @@ Ext.define('Store.hello_world.Module', {
         var cssLink = document.createElement("link");
         cssLink.setAttribute("rel", "stylesheet");
         cssLink.setAttribute("type", "text/css");
-        cssLink.setAttribute("href", '/store/hello_world/style.css');
+        cssLink.setAttribute("href", '/store/dwr-data-license-info/style.css');
         document.head.appendChild(cssLink);
     }
 });
