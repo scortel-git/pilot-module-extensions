@@ -3,7 +3,7 @@
  * This is the simplest possible application to demonstrate the basics
  */
 
-Ext.define('Store.dwr_data.license.Module', {
+Ext.define('Store.dwr-data-license-info.Module', {
     extend: 'Ext.Component',
 
     /**
@@ -118,19 +118,19 @@ Ext.define('Store.dwr_data.license.Module', {
         });
 
         // 6. LOAD CUSTOM STYLES
-        this.loadStyles();
+        // this.loadStyles();
 
-        console.log('Hello World application initialized successfully!');
+        // console.log('Hello World application initialized successfully!');
     },
 
     /**
      * Load custom CSS styles for the application
      */
-    loadStyles: function () {
-        var cssLink = document.createElement("link");
-        cssLink.setAttribute("rel", "stylesheet");
-        cssLink.setAttribute("type", "text/css");
-        cssLink.setAttribute("href", '/store/dwr-data-license-info/style.css');
-        document.head.appendChild(cssLink);
-    }
+    // loadStyles: function () {
+    //     var cssLink = document.createElement("link");
+    //     cssLink.setAttribute("rel", "stylesheet");
+    //     cssLink.setAttribute("type", "text/css");
+    //     cssLink.setAttribute("href", '/store/dwr-data-license-info/style.css');
+    //     document.head.appendChild(cssLink);
+    // }
 });
