@@ -81,7 +81,7 @@ Ext.define('Store.dwr-data-license-info.Module', {
                     <h4>Official licence documentation</h4>
                     <p>For the complete licence terms and conditions, please refer to the official Creative Commons documentation:</p>
                     <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>
-                    <hr>
+                    <br>
                     <a href="https://creativecommons.org/licenses/by/4.0/legalcode">View the full legal code</a>
                 </div>
             `,
