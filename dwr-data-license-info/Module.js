@@ -101,9 +101,9 @@ Ext.define('Store.dwr-data-license-info.Module', {
             xtype: 'button',
             // cls: 'header_tool hello_world-header-btn',
             text: 'Data Licensing',
-            iconCls: 'fa fa-creative-commons-by',
-            tooltip: 'Data License',
-            style: 'background-color: #2E7D32; color: white;',
+            // iconCls: 'fa fa-creative-commons-by',
+            tooltip: 'Data License Info',
+            style: 'background-color: #71717A; color: white;',
             // style: {
             //     backgroundColor: '#2E7D32',
             //     color: '#FFFFFF',
