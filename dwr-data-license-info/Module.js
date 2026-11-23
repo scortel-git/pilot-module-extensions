@@ -41,7 +41,6 @@ Ext.define('Store.dwr-data-license-info.Module', {
                     <p>The data is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence, allowing users to share and adapt the data, including for commercial purposes, provided that appropriate attribution is given.</p>
                     <p>The licence applies exclusively to the datasets and data products provided through the platform. It does not cover the GPS software, platform interface, source code, or other components of the system.</p>
                     <div style="background: #f0f8ff; padding: 15px; border-radius: 5px;">
-                    <p>You've successfully:</p>
                         <ul style="text-align: left; display: inline-block;">
                             <li>View the applicable data licence and its terms.</li>
                             <li>Access the official Creative Commons licence documentation.</li>
