@@ -103,12 +103,12 @@ Ext.define('Store.dwr-data-license-info.Module', {
             text: 'Data Licensing',
             // iconCls: 'fa fa-creative-commons-by',
             tooltip: 'Data License Info',
-            style: 'background-color: #71717A; color: white;',
-            // style: {
-            //     backgroundColor: '#2E7D32',
-            //     color: '#FFFFFF',
-            //     borderColor: '#2E7D32'
-            // },
+            // style: 'background-color: #71717A; color: white;',
+            style: {
+                backgroundColor: '#71717A',
+                color: '#FFFFFF'
+                // borderColor: '#2E7D32'
+            },
             handler: function () {
                 Ext.Msg.alert('Data Licensing Information',
                               '<p>The datasets made available through this platform are licensed under the ' +
