@@ -106,9 +106,14 @@ Ext.define('Store.dwr-data-license-info.Module', {
             // style: 'background-color: #71717A; color: white;',
             style: {
                 backgroundColor: '#71717A',
-                color: '#ffffff !important',
+                // color: '#ffffff !important',
                 // color: '#FFFFFF'
                 // borderColor: '#2E7D32'
+            },
+            listeners: {
+                afterrender: function (button) {
+                    button.getEl().down('.x-btn-inner').setStyle('color', '#ffffff');
+                }
             },
             handler: function () {
                 Ext.Msg.alert('Data Licensing Information',
