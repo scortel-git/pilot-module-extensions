@@ -1,8 +1,3 @@
-/**
- * Hello World Example - Basic PILOT Extensions Application
- * This is the simplest possible application to demonstrate the basics
- */
-
 Ext.define('Store.dwr-data-license-info.Module', {
     extend: 'Ext.Component',
 
@@ -10,7 +5,6 @@ Ext.define('Store.dwr-data-license-info.Module', {
      * Initialization function - called when the application loads
      */
     initModule: function () {
-        // console.log('Hello World application loaded!')
 
         // 1. CREATE NAVIGATION TAB FOR LEFT PANEL
         var navTab = Ext.create('Pilot.utils.LeftBarPanel', {
@@ -99,16 +93,10 @@ Ext.define('Store.dwr-data-license-info.Module', {
         // 5. ADD BUTTON TO HEADER (Optional)
         skeleton.header.insert(5, {
             xtype: 'button',
-            // cls: 'header_tool hello_world-header-btn',
             text: 'Data Licensing',
-            // iconCls: 'fa fa-creative-commons-by',
             tooltip: 'Data License Info',
-            // style: 'background-color: #71717A; color: white;',
             style: {
                 backgroundColor: '#71717A',
-                // color: '#ffffff !important',
-                // color: '#FFFFFF'
-                // borderColor: '#2E7D32'
             },
             listeners: {
                 afterrender: function (button) {
@@ -136,8 +124,6 @@ Ext.define('Store.dwr-data-license-info.Module', {
 
         // 6. LOAD CUSTOM STYLES
         // this.loadStyles();
-
-        // console.log('Hello World application initialized successfully!');
     },
 
     /**
