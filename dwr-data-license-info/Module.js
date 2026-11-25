@@ -106,7 +106,7 @@ Ext.define('Store.dwr-data-license-info.Module', {
             // style: 'background-color: #71717A; color: white;',
             style: {
                 backgroundColor: '#71717A',
-                color: '#FFFFFF'
+                // color: '#FFFFFF'
                 // borderColor: '#2E7D32'
             },
             handler: function () {
